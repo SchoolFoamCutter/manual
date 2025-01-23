@@ -28,3 +28,9 @@ This error is caused by the selected filepickertype (GUI, CLI) being invalid or 
     * `gui` or `1` (uses pop-ups for selection, recommended for beginners)
     * `cli` or `2` (uses terminal for selection, recommended for advanced users)
 4. Save and exit
+
+### `Permission denied! Unable to create '<directory>'`
+This error is caused by the program being unable to create a directory because of lack of permissions from the user
+
+Troubleshooting steps
+* Make sure you have permission to edit files in the directory the program is located in
