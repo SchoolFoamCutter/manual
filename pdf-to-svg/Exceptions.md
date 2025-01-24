@@ -7,7 +7,7 @@ You may encounter several different warnings, errors, and other exceptions while
 Debugging is enabled, shows debug info to the console/terminal in green. This shows more information about how the program works but does not serve any real benefit for the average user. Disable in .env
 
 1. To fix this, open the '.env' file in notepad
-  > [!IMPORTANT]
+  > [!WARNING]
   > Do not edit the values of any of the other variables unless you know what you're doing
 2. Find the variable "deathDebug" (around line 6)
     * it should look similar to `deathDebug = "show"`
@@ -42,7 +42,7 @@ THis error is caused by not entering a number
 This error is caused by the selected filepickertype (GUI, CLI) being invalid or blank.
 
 1. To fix this error, open the '.env' file in notepad
-  > [!IMPORTANT]
+  > [!WARNING]
   > Do not edit the values of any of the other variables unless you know what you're doing
 2. Find the variable "filePickerTypeEnv" (around line 8)
     * it should look similar to `filePickerTypeEnv = "<Some Value>"`
